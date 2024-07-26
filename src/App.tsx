@@ -1,9 +1,12 @@
 import "./App.css";
+import { NavBar } from "./Components/NavBar/NavBar";
+import { Home } from "./View/Home/Home";
 
 function App() {
   return (
     <>
-      <h1 className="text-red-800">New Portfolio</h1>
+      <NavBar />
+      <Home />
     </>
   );
 }

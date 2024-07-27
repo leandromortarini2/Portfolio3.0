@@ -1,6 +1,6 @@
 .imgEffectRight {
-  -webkit-mask-image: linear-gradient(to right, black, transparent);
-  mask-image: linear-gradient(to right, black, transparent);
+  -webkit-mask-image: linear-gradient(to left, black, transparent);
+  mask-image: linear-gradient(to left, black, transparent);
 }
 
 .imgEffectLow {

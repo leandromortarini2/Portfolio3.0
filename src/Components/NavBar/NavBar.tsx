@@ -13,31 +13,31 @@ export const NavBar: React.FC = () => {
 
   return (
     <>
-      <div className=" w-full h-20 bg-white flex  fixed z-50">
+      <div className=" w-full h-20 bg-gray-900 flex  fixed z-50">
         <div className="w-1/2 sm:w-1/4 flex justify-center items-center">
-          <h2 className=" text-lg font-semibold  sm:text-azul xl:text-3xl sm:font-bold tracking-[2px]  ">
+          <h2 className=" text-lg font-semibold  sm:text-white xl:text-3xl sm:font-bold tracking-[2px]  ">
             Developer
           </h2>
         </div>
         {/* botonera */}
         <div className="hidden w-3/4 h-20  md:flex justify-evenly items-center">
           <a href="#home">
-            <button className="md:text-lg lg:text-xl xl:text-2xl font-bold text-azul hover:scale-110 duration-1000 hover:text-gray-800 ">
+            <button className="md:text-lg lg:text-xl xl:text-2xl font-bold text-white hover:scale-110 duration-1000 hover:text-gray-800 ">
               Inicio{" "}
             </button>
           </a>
           <a href="#about">
-            <button className="md:text-lg lg:text-xl xl:text-2xl font-bold text-azul hover:scale-110 duration-1000 hover:text-gray-800 ">
+            <button className="md:text-lg lg:text-xl xl:text-2xl font-bold text-white hover:scale-110 duration-1000 hover:text-gray-800 ">
               Conocenos
             </button>
           </a>
           <a href="#service">
-            <button className="md:text-lg lg:text-xl xl:text-2xl font-bold text-azul hover:scale-110 duration-1000 hover:text-gray-800 ">
+            <button className="md:text-lg lg:text-xl xl:text-2xl font-bold text-white hover:scale-110 duration-1000 hover:text-gray-800 ">
               Servicios
             </button>
           </a>
           <a href="#contacto">
-            <button className="md:text-lg lg:text-xl xl:text-2xl font-bold text-azul hover:scale-110 duration-1000 hover:text-gray-800 ">
+            <button className="md:text-lg lg:text-xl xl:text-2xl font-bold text-white hover:scale-110 duration-1000 hover:text-gray-800 ">
               Contacto
             </button>
           </a>

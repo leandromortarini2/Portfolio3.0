@@ -20,7 +20,7 @@ export const NavBar: React.FC = () => {
 
   return (
     <>
-      <div className="w-full flex justify-end md:block md:w-1/5   md:h-screen bg-gray-950 fixed top-0 left-0 ">
+      <div className="w-full flex justify-end md:block md:w-1/5   md:h-screen bg-gray-950 fixed top-0 left-0 z-50">
         <div className="w-1/2 md:hidden flex justify-center items-center ">
           <h1 className="text-2xl font-bold text-white">Portfolio</h1>
         </div>
@@ -94,7 +94,7 @@ export const NavBar: React.FC = () => {
         </div>
 
         {/* hamburguesa */}
-        <div className="w-1/2 h-20 flex justify-end items-center md:hidden ">
+        <div className="w-1/2 h-20 flex justify-end items-center z-50 md:hidden  ">
           <button onClick={handleBurger}>
             <img src={Burger} alt="" className="w-12 mr-2" />
           </button>

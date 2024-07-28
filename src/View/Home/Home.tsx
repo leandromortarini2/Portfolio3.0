@@ -4,7 +4,7 @@ import imgPortada from "../../assets/perfil1.png";
 export const Home: React.FC = () => {
   return (
     <>
-      <div className="w-full h-screen  bg-gray-900 flex justify-center items-center">
+      <div className="hidden w-full h-screen  bg-gray-900 md:flex justify-center items-center">
         <div className="w-1/2 h-screen flex flex-col justify-center items-center">
           <div className="md:w-[300px] lg:w-[600px] xl:w-[800px] xl:h-72 flex flex-col justify-evenly md:ml-10  lg:ml-52  xl:ml-64 ">
             <h3 className="text-gray-300 md:text-xl  lg:text-2xl xl:text-3xl font-semibold">
@@ -36,6 +36,32 @@ export const Home: React.FC = () => {
             className="md:w-[230px] lg:w-[300px] xl:w-[400px]  ShadowEffect imgEffectLow"
           />
         </div>
+      </div>
+      {/* celu */}
+      {/* celu */}
+      {/* celu */}
+      <div className="w-full min-h-screen  bg-gray-900 flex flex-col justify-center items-center md:hidden">
+        <h3 className="text-gray-300 text-lg font-semibold mt-24">
+          Bienvenido/a
+        </h3>
+        <div className="w-full  flex justify-center items-center  ">
+          <img
+            src={imgPortada}
+            alt=""
+            className="w-1/2   ShadowEffect imgEffectLow"
+          />
+        </div>
+        <div className="w-full  flex flex-col justify-evenly items-center  ">
+          <h3 className="text-gray-300 text-lg   font-semibold">soy</h3>
+          <h1 className="text-white text-3xl font-bold">Leandro Mortarini</h1>
+          <h2 className="text-white text-lg  font-semibold">
+            Desarrollador Full Stack
+          </h2>
+        </div>
+
+        <button className=" p-1 m-3 bg-white text-gray-900 md:text-md lg:text-lg xl:text-xl  font-bold rounded-xl">
+          Ir al Curriculum
+        </button>
       </div>
     </>
   );

@@ -33,7 +33,7 @@ export const Home: React.FC = () => {
           <img
             src={imgPortada}
             alt=""
-            className="md:w-[230px] lg:w-[300px] xl:w-[400px]  ShadowEffect"
+            className="md:w-[230px] lg:w-[300px] xl:w-[400px]  ShadowEffect imgEffectLow"
           />
         </div>
       </div>

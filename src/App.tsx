@@ -4,10 +4,19 @@ import { Home } from "./View/Home/Home";
 
 function App() {
   return (
-    <>
-      <NavBar />
-      <Home />
-    </>
+    <div className="flex justify-center">
+      <div className=" md:w-1/5 h-screen bg-slate-600">
+        <NavBar />
+      </div>
+      {/* <div className="hidden md:w-1/5 h-screen bg-slate-600">
+        <NavBar />
+      </div> */}
+      <div className="w-full md:w-4/5 overflow-y-auto h-screen  ">
+        <Home />
+        <Home />
+        <Home />
+      </div>
+    </div>
   );
 }
 

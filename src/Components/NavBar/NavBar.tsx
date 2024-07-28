@@ -20,14 +20,14 @@ export const NavBar: React.FC = () => {
 
   return (
     <>
-      <div className="w-full flex justify-end md:block md:w-1/5   md:h-screen bg-gray-900 fixed top-0 left-0 ">
+      <div className="w-full flex justify-end md:block md:w-1/5   md:h-screen bg-gray-950 fixed top-0 left-0 ">
         <div className="w-1/2 md:hidden flex justify-center items-center ">
           <h1 className="text-2xl font-bold text-white">Portfolio</h1>
         </div>
         {/* botonera */}
-        <div className="hidden w-full h-1/2  md:flex flex-col justify-evenly items-start">
+        <div className="hidden w-full h-1/2  md:flex flex-col justify-evenly items-center">
           <a href="#home">
-            <div className="w-full flex ml-5 ">
+            <div className="w-full flex mr-8 ">
               <img src={imgHome} alt="" className="w-7 mr-2" />
               <button className="md:text-lg lg:text-xl xl:text-2xl font-bold text-white  ">
                 Inicio{" "}
@@ -35,7 +35,7 @@ export const NavBar: React.FC = () => {
             </div>
           </a>
           <a href="#about">
-            <div className="w-full flex ml-5 ">
+            <div className="w-full flex  ">
               <img src={imgAbout} alt="" className="w-7 mr-2" />
               <button className="md:text-lg lg:text-xl xl:text-2xl font-bold text-white  ">
                 Sobre mi
@@ -43,50 +43,50 @@ export const NavBar: React.FC = () => {
             </div>
           </a>
           <a href="#service">
-            <div className="w-full flex ml-5 ">
+            <div className="w-full flex  ">
               <img src={imgProject} alt="" className="w-7 mr-2" />
               <button className="md:text-lg lg:text-xl xl:text-2xl font-bold text-white  ">
                 Proyectos
               </button>
             </div>
           </a>{" "}
-          <div className="w-full flex justify-center">
-            <div className="w-3/4 h-3 bg-gray-600 "></div>
-          </div>
+        </div>
+        <div className="w-full flex justify-center">
+          <div className="w-3/4 h-1 bg-gray-600 "></div>
         </div>
         {/* redes */}
         {/* redes */}
         {/* redes */}
-        <div className="hidden w-full h-1/2  md:flex flex-col justify-evenly items-start">
+        <div className="hidden w-full h-1/2  md:flex flex-col justify-evenly items-center">
           {" "}
           <a href="#home">
-            <div className="w-full flex ml-5 ">
+            <div className="w-40 flex ml-5  ">
               <img src={imgLinkedin} alt="" className="w-7 mr-2" />
-              <button className="md:text-lg lg:text-xl xl:text-2xl font-bold text-white  ">
+              <button className="md:text-md lg:text-xl xl:text-2xl font-bold text-white  ">
                 Linkedin
               </button>
             </div>
           </a>
           <a href="#home">
-            <div className="w-full flex ml-5 ">
+            <div className="w-40 flex ml-5  ">
               <img src={imgGitHub} alt="" className="w-7 mr-2" />
-              <button className="md:text-lg lg:text-xl xl:text-2xl font-bold text-white  ">
+              <button className="md:text-md lg:text-xl xl:text-2xl font-bold text-white  ">
                 GitHub{" "}
               </button>
             </div>
           </a>
           <a href="#home">
-            <div className="w-full flex ml-5 ">
+            <div className="w-40 flex ml-5  ">
               <img src={imgWhatsapp} alt="" className="w-7 mr-2" />
-              <button className="md:text-lg lg:text-xl xl:text-2xl font-bold text-white  ">
+              <button className="md:text-md lg:text-xl xl:text-2xl font-bold text-white  ">
                 Whatsapp{" "}
               </button>
             </div>
           </a>
           <a href="#home">
-            <div className="w-full flex ml-5 ">
+            <div className="w-40 flex ml-5  ">
               <img src={imgInstagram} alt="" className="w-7 mr-2" />
-              <button className="md:text-lg lg:text-xl xl:text-2xl font-bold text-white  ">
+              <button className="md:text-md lg:text-xl xl:text-2xl font-bold text-white  ">
                 Instagram{" "}
               </button>
             </div>

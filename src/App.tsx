@@ -13,8 +13,7 @@ function App() {
       </div> */}
       <div className="w-full md:w-4/5 overflow-y-auto h-screen  ">
         <Home />
-        <Home />
-        <Home />
+        <div className="w-full h-screen"></div>
       </div>
     </div>
   );

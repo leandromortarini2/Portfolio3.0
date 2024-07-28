@@ -16,7 +16,7 @@
 }
 
 .ShadowEffect {
-  filter: drop-shadow(10px 0px 10px rgba(0, 0, 0, 0.5));
+  filter: drop-shadow(10px 0px 10px rgba(0, 0, 0, 0.9));
 }
 
 #service {

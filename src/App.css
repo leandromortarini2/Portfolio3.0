@@ -4,15 +4,19 @@
 }
 
 .imgEffectLow {
-  -webkit-mask-image: linear-gradient(black, transparent);
-  mask-image: linear-gradient(black, transparent);
+  -webkit-mask-image: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 1),
+    rgba(0, 0, 0, 0)
+  );
+  mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.3));
 }
 
 .navbar {
   background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8));
 }
-.portada {
-  background: linear-gradient(#14b8a6, #053b50);
+.home {
+  background: linear-gradient(rgba(0, 0, 0, 0.9)), url("./assets/3284088.jpg");
 }
 
 .ShadowEffect {
@@ -27,11 +31,7 @@
 }
 
 .fondoAbout {
-  background: linear-gradient(
-      rgba(247, 246, 246, 0.984),
-      rgba(255, 255, 255, 0.472)
-    ),
-    url("./assets/local.jpg");
+  background: linear-gradient(#64ccc5, #053b50), url("./assets/local.jpg");
 
   background-size: cover;
 }

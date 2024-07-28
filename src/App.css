@@ -25,9 +25,6 @@
 #contacto {
   scroll-margin-top: 5rem; /* Ajusta este valor según la altura del NavBar */
 }
-#about {
-  scroll-margin-top: 5rem; /* Ajusta este valor según la altura del NavBar */
-}
 
 .fondoAbout {
   background: linear-gradient(
@@ -37,4 +34,43 @@
     url("./assets/local.jpg");
 
   background-size: cover;
+}
+
+.slider {
+  width: 90%;
+  height: 250px;
+  margin: auto;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+}
+
+.slider .slideTrack {
+  display: flex;
+  animation: scroll 50s linear infinite;
+  width: calc(100px * 30); /* Ajuste del ancho para 100px por slide */
+}
+
+.slider .slide {
+  width: 100px; /* Ajuste del ancho de cada slide */
+  height: 100px;
+  margin: 10px; /* Eliminación del margen */
+}
+
+.slider .slide img {
+  width: 100%;
+  height: 100%;
+}
+
+@keyframes scroll {
+  0% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
+  100% {
+    -webkit-transform: translateX(
+      calc(-100px * 15)
+    ); /* Ajuste del ancho de la animación */
+    transform: translateX(calc(-100px * 15));
+  }
 }

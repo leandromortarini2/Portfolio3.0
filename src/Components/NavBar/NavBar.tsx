@@ -21,9 +21,6 @@ export const NavBar: React.FC = () => {
   return (
     <>
       <div className="w-full flex justify-end md:block md:w-1/5   md:h-screen bg-gray-950 fixed top-0 left-0 z-50">
-        <div className="w-1/2 md:hidden flex justify-center items-center ">
-          <h1 className="text-2xl font-bold text-white">Portfolio</h1>
-        </div>
         {/* botonera */}
         <div className="hidden w-full h-1/2  md:flex flex-col justify-evenly items-center">
           <a href="#home">
@@ -51,8 +48,8 @@ export const NavBar: React.FC = () => {
             </div>
           </a>{" "}
         </div>
-        <div className="w-full flex justify-center">
-          <div className="w-3/4 h-1 bg-gray-600 "></div>
+        <div className="hidden w-full md:flex justify-center ">
+          <div className="w-3/4 h-1 bg-slate-700 "></div>
         </div>
         {/* redes */}
         {/* redes */}
@@ -102,7 +99,7 @@ export const NavBar: React.FC = () => {
       </div>{" "}
       {/* container burger */}
       {burger === true ? (
-        <div className=" w-full h-[250px] flex flex-col justify-start   md:hidden fixed z-50 mt-20 bg-gray-800 ">
+        <div className=" w-full h-[350px] flex flex-col justify-start   md:hidden fixed z-50 mt-20 bg-gray-800 ">
           <div className="w-full h-3/4  flex flex-col justify-evenly items-center ">
             <a href="#home">
               <button className="text-lg font-bold text-gray-300 hover:scale-110 duration-1000 hover:text-gray-800  ">
@@ -142,6 +139,9 @@ export const NavBar: React.FC = () => {
               </div>
             </a>
           </div>
+          <button className=" p-2 m-3 bg-gray-900 text-white md:text-md lg:text-lg xl:text-xl  font-bold rounded-xl">
+            Curriculum
+          </button>
         </div>
       ) : null}
     </>

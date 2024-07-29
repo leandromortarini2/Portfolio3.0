@@ -39,7 +39,7 @@ export const NavBar: React.FC = () => {
               </button>
             </div>
           </a>
-          <a href="#service">
+          <a href="#project">
             <div className="w-full flex  ">
               <img src={imgProject} alt="" className="w-7 mr-2" />
               <button className="md:text-lg lg:text-xl xl:text-2xl font-bold text-white  ">

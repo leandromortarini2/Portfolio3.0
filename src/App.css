@@ -9,7 +9,7 @@
     rgba(0, 0, 0, 1),
     rgba(0, 0, 0, 0)
   );
-  mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.3));
+  mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
 }
 
 .navbar {
@@ -31,33 +31,28 @@
 }
 
 .fondoAbout {
-  background: linear-gradient(#64ccc5, #053b50), url("./assets/local.jpg");
+  background: linear-gradient(
+      rgba(253, 252, 252, 0.7),
+      rgba(255, 254, 254, 0.7)
+    ),
+    url("https://i.pinimg.com/564x/be/8d/57/be8d5758518fe97a56d4583254fb9911.jpg");
 
   background-size: cover;
 }
 
-.slider {
-  width: 90%;
-  height: 250px;
-  margin: auto;
-  overflow: hidden;
-  display: flex;
-  align-items: center;
-}
-
-.slider .slideTrack {
+.slideTrack {
   display: flex;
   animation: scroll 50s linear infinite;
   width: calc(100px * 30); /* Ajuste del ancho para 100px por slide */
 }
 
-.slider .slide {
-  width: 100px; /* Ajuste del ancho de cada slide */
-  height: 100px;
+.slide {
+  width: 50px; /* Ajuste del ancho de cada slide */
+  height: 50px;
   margin: 10px; /* Eliminación del margen */
 }
 
-.slider .slide img {
+.slide img {
   width: 100%;
   height: 100%;
 }
@@ -72,5 +67,75 @@
       calc(-100px * 15)
     ); /* Ajuste del ancho de la animación */
     transform: translateX(calc(-100px * 15));
+  }
+}
+
+.ballMovile {
+  animation: ballMovile 1s infinite alternate;
+  animation-timing-function: linear;
+}
+@keyframes ballMovile {
+  0% {
+    filter: drop-shadow(0px 0px 0px rgba(255, 253, 253, 0.071));
+  }
+
+  100% {
+    filter: drop-shadow(0px 0px 10px rgba(6, 130, 133, 0.9));
+  }
+}
+
+/* Media Queries */
+@media (max-width: 1200px) {
+  .slideTrack {
+    width: calc(90px * 30); /* Ajuste del ancho para 90px por slide */
+  }
+
+  .slide {
+    width: 90px; /* Ajuste del ancho de cada slide */
+    height: 90px;
+  }
+}
+
+@media (max-width: 992px) {
+  .slideTrack {
+    width: calc(80px * 30); /* Ajuste del ancho para 80px por slide */
+  }
+
+  .slide {
+    width: 80px; /* Ajuste del ancho de cada slide */
+    height: 80px;
+  }
+}
+
+@media (max-width: 768px) {
+  .slideTrack {
+    width: calc(70px * 30); /* Ajuste del ancho para 70px por slide */
+  }
+
+  .slide {
+    width: 70px; /* Ajuste del ancho de cada slide */
+    height: 70px;
+  }
+}
+
+@media (max-width: 576px) {
+  .slideTrack {
+    width: calc(60px * 30); /* Ajuste del ancho para 60px por slide */
+  }
+
+  .slide {
+    width: 60px; /* Ajuste del ancho de cada slide */
+    height: 60px;
+  }
+}
+
+@media (max-width: 360px) {
+  .slideTrack {
+    width: calc(50px * 30); /* Ajuste del ancho para 50px por slide */
+  }
+
+  .slide {
+    width: 50px; /* Ajuste del ancho de cada slide */
+    height: 50px;
   }
 }

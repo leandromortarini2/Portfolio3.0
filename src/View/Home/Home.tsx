@@ -62,10 +62,10 @@ export const Home: React.FC = () => {
             <h3 className="text-gray-300 md:text-xl  lg:text-2xl xl:text-3xl font-semibold">
               soy
             </h3>
-            <h1 className="text-teal-600 md:text-4xl lg:text-[50px] xl:text-[80px] font-bold">
+            <h1 className="text-sky-800 md:text-4xl lg:text-[50px] xl:text-[80px] font-bold">
               Leandro Mortarini
             </h1>
-            <h2 className="text-white md:text-2xl lg:text-3xl xl:text-4xl font-semibold">
+            <h2 className="text-sky-500 md:text-2xl lg:text-3xl xl:text-4xl font-semibold">
               Desarrollador Full Stack
             </h2>
             <h3 className="text-gray-300 md:text-xl lg:text-2xl  xl:text-3xl font-semibold">

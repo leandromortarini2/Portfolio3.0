@@ -25,11 +25,11 @@ export const About: React.FC = () => {
           </h1>
           <p className="text-white p-5 text-justify md:text-sm lg:text-md xl:text-2xl font-bold">
             Me formé en el boot camp de Henry como{" "}
-            <span className="text-teal-600">
+            <span className="text-sky-600">
               Full Stack Developer con especialización en Front End.
             </span>{" "}
             Mi experiencia se centra en tecnologías como{" "}
-            <span className="text-teal-600">
+            <span className="text-sky-600">
               React, TypeScript, Javascript, Tailwind, Node.js, Express, Next,
               entre otras.
             </span>{" "}

@@ -7,7 +7,7 @@ import tec5 from "../../assets/tecnologias/tailwindcss.svg";
 import tec6 from "../../assets/tecnologias/html5.svg";
 import tec7 from "../../assets/tecnologias/css.svg";
 import tec8 from "../../assets/tecnologias/nodejs.svg";
-import tec9 from "../../assets/tecnologias/Express.js_light.svg";
+import tec9 from "../../assets/tecnologias/expressjs_dark.svg";
 import tec10 from "../../assets/tecnologias/postgresql.svg";
 import tec11 from "../../assets/tecnologias/mongodb.svg";
 import tec12 from "../../assets/tecnologias/typeorm.svg";
@@ -24,7 +24,7 @@ export const About: React.FC = () => {
           <h1 className="text-gray-50 text-3xl md:text-4xl lg:text-[40px] xl:text-[60px] font-bold  lg:mb-5 xl:mb-10">
             Sobre mí
           </h1>
-          <p className="text-gray-200 p-5 text-justify md:text-sm lg:text-md xl:text-2xl font-bold">
+          <p className="text-gray-200 p-5 text-center md:text-justify md:text-sm lg:text-md xl:text-2xl font-bold">
             Me formé en el boot camp de Henry como{" "}
             <span className="text-sky-600">
               Full Stack Developer con especialización en Front End.

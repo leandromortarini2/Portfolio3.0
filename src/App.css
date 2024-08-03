@@ -15,12 +15,12 @@
 .navbar {
   background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8));
 }
-.home {
-  background: linear-gradient(rgba(0, 0, 0, 0.9)), url("./assets/3284088.jpg");
-}
 
 .ShadowEffect {
   filter: drop-shadow(10px 0px 10px rgba(0, 0, 0, 0.9));
+}
+.ShadowEffect2 {
+  filter: drop-shadow(0px 0px 7px #0285c7a3);
 }
 
 #service {
@@ -80,7 +80,7 @@
   }
 
   100% {
-    filter: drop-shadow(0px 0px 10px rgba(6, 130, 133, 0.9));
+    filter: drop-shadow(0px 0px 10px #0284c7);
   }
 }
 

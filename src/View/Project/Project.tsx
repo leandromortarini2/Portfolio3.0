@@ -1,7 +1,7 @@
 import { proyectos } from "../../Helpers/proyectos";
 import "./Project.css";
-import gitHub from "../../assets/tecnologias/Github_light.svg";
-import vercel from "../../assets/tecnologias/Vercel_light.svg";
+import { IoLogoVercel } from "react-icons/io5";
+import { FaGithub } from "react-icons/fa6";
 
 export const Project = () => {
   return (
@@ -15,7 +15,7 @@ export const Project = () => {
             return (
               <div
                 key={i}
-                className="card w-full h-[250px] md:w-[310px] md:h-[250px] lg:w-[350px] lg:h-[290px] xl:w-[450px] xl:h-[300px]  mb-2 "
+                className="card w-full h-[250px] md:w-[310px] md:h-[250px] lg:w-[350px] lg:h-[270px] xl:w-[450px]   mb-2 mt-2 "
               >
                 <div className="card-inner ">
                   <div className="card-front">
@@ -29,19 +29,11 @@ export const Project = () => {
                     <p className="text-sm lg:text-base p-2">{e.description}</p>
                     <div className="w-full  flex justify-evenly items-center mb-2">
                       <a href={e.github}>
-                        <img
-                          src={gitHub}
-                          alt=""
-                          className="w-7 md:w-8 hover:scale-125 duration-1000 "
-                        />
+                        <FaGithub className="hover:text-sky-500 hover:scale-125 duration-1000 text-3xl" />
                       </a>
                       {e.vercel === "" ? null : (
                         <a href={e.vercel}>
-                          <img
-                            src={vercel}
-                            alt=""
-                            className="w-8 hover:scale-125 duration-1000"
-                          />
+                          <IoLogoVercel className="hover:text-sky-500 hover:scale-125 duration-1000 text-3xl" />
                         </a>
                       )}
                     </div>

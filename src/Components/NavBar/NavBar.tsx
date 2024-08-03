@@ -1,4 +1,3 @@
-import Burger from "../../assets/burger.svg";
 import React, { useState } from "react";
 import { ImHome } from "react-icons/im";
 import { BsRocketTakeoff } from "react-icons/bs";
@@ -8,6 +7,8 @@ import { FaGithub } from "react-icons/fa6";
 import { IoLogoLinkedin } from "react-icons/io5";
 import { FaWhatsapp } from "react-icons/fa";
 import { FaLocationArrow } from "react-icons/fa6";
+import { GiHamburgerMenu } from "react-icons/gi";
+import { BsRocket } from "react-icons/bs";
 
 export const NavBar: React.FC = () => {
   const [burger, setBurger] = useState(false);
@@ -22,6 +23,12 @@ export const NavBar: React.FC = () => {
   return (
     <>
       <div className="w-full flex justify-end md:block md:w-1/5   md:h-screen bg-gray-950 fixed top-0 left-0 z-50">
+        <div className="w-1/2 md:hidden  flex justify-center items-center">
+          <span className="text-gray-300 font-bold  tracking-wider text-xl ballMovile flex justify-center items-center ml-5 ">
+            <BsRocket />
+            Developer
+          </span>
+        </div>
         {/* botonera */}
         <div className="hidden w-full h-1/2  md:flex flex-col justify-evenly items-center">
           <a href="#home">
@@ -54,28 +61,28 @@ export const NavBar: React.FC = () => {
         {/* redes */}
         <div className="hidden w-full h-1/2  md:flex flex-col justify-evenly items-center">
           {" "}
-          <a href="#home">
+          <a href="https://www.linkedin.com/in/leandro-mortarini/">
             <div className="w-full flex items-center justify-center ">
               <span className="md:text-lg lg:text-xl xl:text-2xl font-semibold text-white hover:text-sky-500 flex items-center">
                 <IoLogoLinkedin className="mr-2" /> LinkedIn
               </span>
             </div>
           </a>
-          <a href="#home">
+          <a href="https://github.com/leandromortarini2">
             <div className="w-full flex items-center justify-center ">
               <span className="md:text-lg lg:text-xl xl:text-2xl font-semibold text-white hover:text-sky-500 flex items-center">
                 <FaGithub className="mr-2" /> GitHub
               </span>
             </div>
           </a>
-          <a href="#home">
+          <a href="https://wa.me/541126034427?text=Hola%20Leandro%2C%20estuve%20viendo%20tu%20portfolio%20y%20me%20interesa%20hablar%20contigo">
             <div className="w-full flex items-center justify-center ">
               <span className="md:text-lg lg:text-xl xl:text-2xl font-semibold text-white hover:text-sky-500 flex items-center">
                 <FaWhatsapp className="mr-2" /> Whatsapp
               </span>
             </div>
           </a>
-          <a href="#home">
+          <a href="https://www.instagram.com/mortajunior/">
             <div className="w-full flex items-center justify-center ">
               <span className="md:text-lg lg:text-xl xl:text-2xl font-semibold text-white hover:text-sky-500 flex items-center">
                 <FaInstagram className="mr-2" /> Instagram
@@ -83,11 +90,10 @@ export const NavBar: React.FC = () => {
             </div>
           </a>
         </div>
-
         {/* hamburguesa */}
         <div className="w-1/2 h-20 flex justify-end items-center z-50 md:hidden  ">
           <button onClick={handleBurger}>
-            <img src={Burger} alt="" className="w-12 mr-2" />
+            <GiHamburgerMenu className="text-4xl text-white hover:text-sky-500 mr-5 " />
           </button>
         </div>
       </div>{" "}
@@ -112,28 +118,28 @@ export const NavBar: React.FC = () => {
             </a>
           </div>
           <div className="w-3/4 min-h-20  flex justify-evenly items-center bg-gray-700 rounded-2xl">
-            <a href="#home">
+            <a href="https://www.linkedin.com/in/leandro-mortarini/">
               <div className="w-full h-10 flex justify-center items-center   ">
                 <span className="text-white hover:text-sky-500 text-xl flex items-center">
                   <IoLogoLinkedin className="" />
                 </span>{" "}
               </div>
             </a>
-            <a href="#home">
+            <a href="https://github.com/leandromortarini2">
               <div className="w-full h-10 flex justify-center items-center   ">
                 <span className="text-white hover:text-sky-500 text-xl flex items-center">
                   <FaGithub className="" />
                 </span>{" "}
               </div>
             </a>
-            <a href="#home">
+            <a href="https://wa.me/541126034427?text=Hola%20Leandro%2C%20estuve%20viendo%20tu%20portfolio%20y%20me%20interesa%20hablar%20contigo">
               <div className="w-full h-10 flex justify-center items-center  ">
                 <span className="text-white hover:text-sky-500 text-xl flex items-center">
                   <FaWhatsapp className="" />
                 </span>{" "}
               </div>
             </a>
-            <a href="#home">
+            <a href="https://www.instagram.com/mortajunior/">
               <div className="w-full h-10 flex justify-center items-center   ">
                 <span className="text-white hover:text-sky-500 text-xl flex items-center">
                   <FaInstagram className="" />
@@ -142,7 +148,7 @@ export const NavBar: React.FC = () => {
             </a>
           </div>
           <div className="w-full h-20 flex justify-center items-center bg-gray-700 mt-10 ">
-            <a href="#home">
+            <a href="https://docs.google.com/document/d/e/2PACX-1vSaMUsNK5DUQArFCfDuOtO-Ys_wuCUZafXnD-Q6goJMAI2jzVeCBXrek6MVa4Z2mL-3OSb5CgYE3UjI/pub">
               <span className="text-white hover:text-sky-500 text-xl flex items-center">
                 Curriculum
                 <FaLocationArrow className="" />

@@ -15,6 +15,7 @@ import tec12 from "../../assets/tecnologias/typeorm.svg";
 import tec13 from "../../assets/tecnologias/materialui (1).svg";
 import tec14 from "../../assets/tecnologias/flowbite.svg";
 import tec15 from "../../assets/tecnologias/Vercel_dark.svg";
+import tec16 from "../../assets/tecnologias/Astro_dark.svg";
 import { FaLocationArrow } from "react-icons/fa6";
 
 export const Home: React.FC = () => {
@@ -49,6 +50,7 @@ export const Home: React.FC = () => {
     tec13,
     tec14,
     tec15,
+    tec16,
   ];
   return (
     <>
@@ -86,8 +88,8 @@ export const Home: React.FC = () => {
               </div>
             </div>
           </div>
-          <a href="#home">
-            <button className="w-40 h-14 flex justify-center items-center bg-gray-700 mt-10 rounded-3xl  hover:text-sky-500 hover:bg-gray-800">
+          <a href="https://docs.google.com/document/d/e/2PACX-1vSaMUsNK5DUQArFCfDuOtO-Ys_wuCUZafXnD-Q6goJMAI2jzVeCBXrek6MVa4Z2mL-3OSb5CgYE3UjI/pub">
+            <button className=" w-40 h-14 flex justify-center items-center bg-gray-700 mt-10 rounded-3xl  hover:text-sky-500 hover:bg-gray-800">
               <span className="text-white text-xl flex items-center">
                 Curriculum
                 <FaLocationArrow className="" />
@@ -99,7 +101,7 @@ export const Home: React.FC = () => {
           <img
             src={imgPortada}
             alt=""
-            className="md:w-[230px] lg:w-[300px] xl:w-[400px]  ShadowEffect imgEffectLow"
+            className="md:w-[230px] lg:w-[300px] xl:w-[400px]  ShadowEffect2 imgEffectLow "
           />
         </div>
       </div>
@@ -138,9 +140,6 @@ export const Home: React.FC = () => {
             </div>
           </div>
         </div>
-        <button className=" p-2 m-3 bg-white text-gray-900 md:text-md lg:text-lg xl:text-xl  font-bold rounded-xl">
-          Ir al Curriculum
-        </button>
       </div>
     </>
   );

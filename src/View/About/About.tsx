@@ -7,23 +7,24 @@ import tec5 from "../../assets/tecnologias/tailwindcss.svg";
 import tec6 from "../../assets/tecnologias/html5.svg";
 import tec7 from "../../assets/tecnologias/css.svg";
 import tec8 from "../../assets/tecnologias/nodejs.svg";
-import tec9 from "../../assets/tecnologias/expressjs_dark.svg";
+import tec9 from "../../assets/tecnologias/Express.js_light.svg";
 import tec10 from "../../assets/tecnologias/postgresql.svg";
 import tec11 from "../../assets/tecnologias/mongodb.svg";
 import tec12 from "../../assets/tecnologias/typeorm.svg";
+import tec13 from "../../assets/tecnologias/Astro_light.svg";
 
 export const About: React.FC = () => {
   return (
     <div
       id="about"
-      className="w-full min-h-screen bg-gray-200 flex flex-col justify-center items-center"
+      className="w-full min-h-screen bg-gray-900 flex flex-col justify-center items-center"
     >
       <div className="w-full   flex flex-col justify-center items-center md:mt-5  mt-10">
         <div className="w-full md:w-3/4 h-1/2 flex flex-col justify-center items-center  ">
-          <h1 className="text-white text-3xl md:text-4xl lg:text-[40px] xl:text-[60px] font-bold  lg:mb-5 xl:mb-10">
+          <h1 className="text-gray-50 text-3xl md:text-4xl lg:text-[40px] xl:text-[60px] font-bold  lg:mb-5 xl:mb-10">
             Sobre mí
           </h1>
-          <p className="text-white p-5 text-justify md:text-sm lg:text-md xl:text-2xl font-bold">
+          <p className="text-gray-200 p-5 text-justify md:text-sm lg:text-md xl:text-2xl font-bold">
             Me formé en el boot camp de Henry como{" "}
             <span className="text-sky-600">
               Full Stack Developer con especialización en Front End.
@@ -100,6 +101,11 @@ export const About: React.FC = () => {
             />
             <img
               src={tec12}
+              alt=""
+              className="w-8 h-10 md:w-10 md:h-10 lg:w-12 lg:h-12 xl:w-14 xl:h-14 m-2 "
+            />
+            <img
+              src={tec13}
               alt=""
               className="w-8 h-10 md:w-10 md:h-10 lg:w-12 lg:h-12 xl:w-14 xl:h-14 m-2 "
             />

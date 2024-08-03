@@ -15,6 +15,8 @@ import tec12 from "../../assets/tecnologias/typeorm.svg";
 import tec13 from "../../assets/tecnologias/materialui (1).svg";
 import tec14 from "../../assets/tecnologias/flowbite.svg";
 import tec15 from "../../assets/tecnologias/Vercel_dark.svg";
+import { FaLocationArrow } from "react-icons/fa6";
+
 export const Home: React.FC = () => {
   const tecnologias = [
     tec1,
@@ -56,19 +58,19 @@ export const Home: React.FC = () => {
       >
         <div className="w-1/2 h-screen flex flex-col justify-center items-center">
           <div className="md:w-[300px] lg:w-[600px] xl:w-[800px] xl:h-72 flex flex-col justify-evenly md:ml-10  lg:ml-52  xl:ml-64 ">
-            <h3 className="text-gray-300 md:text-xl  lg:text-2xl xl:text-3xl font-semibold">
+            <h3 className="text-gray-200 md:text-xl  lg:text-2xl xl:text-3xl font-semibold">
               Bienvenido/a
             </h3>
-            <h3 className="text-gray-300 md:text-xl  lg:text-2xl xl:text-3xl font-semibold">
+            <h3 className="text-gray-200 md:text-xl  lg:text-2xl xl:text-3xl font-semibold">
               soy
             </h3>
-            <h1 className="text-sky-800 md:text-4xl lg:text-[50px] xl:text-[80px] font-bold">
+            <h1 className="text-sky-700 md:text-4xl lg:text-[50px] xl:text-[80px] font-bold">
               Leandro Mortarini
             </h1>
             <h2 className="text-sky-500 md:text-2xl lg:text-3xl xl:text-4xl font-semibold">
               Desarrollador Full Stack
             </h2>
-            <h3 className="text-gray-300 md:text-xl lg:text-2xl  xl:text-3xl font-semibold">
+            <h3 className="text-gray-200 md:text-xl lg:text-2xl  xl:text-3xl font-semibold">
               leandromortarini2@gmail.com
             </h3>
           </div>
@@ -84,11 +86,14 @@ export const Home: React.FC = () => {
               </div>
             </div>
           </div>
-          <div className="w-3/4 md:h-14 lg:h-24 xl:h-32 flex justify-end items-end">
-            <button className=" md:w-32 lg:w-40 xl:w-52 md:h-8  lg:h-10 xl:h-14 bg-white text-gray-900 md:text-md lg:text-lg xl:text-xl  font-bold rounded-2xl">
-              Ir al Curriculum
-            </button>
-          </div>
+          <a href="#home">
+            <button className="w-40 h-14 flex justify-center items-center bg-gray-700 mt-10 rounded-3xl  hover:text-sky-500 hover:bg-gray-800">
+              <span className="text-white text-xl flex items-center">
+                Curriculum
+                <FaLocationArrow className="" />
+              </span>{" "}
+            </button>{" "}
+          </a>
         </div>
         <div className="w-1/2 h-screen flex justify-center items-end ">
           <img

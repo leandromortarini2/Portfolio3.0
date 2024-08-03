@@ -1,14 +1,14 @@
 import { proyectos } from "../../Helpers/proyectos";
 import "./Project.css";
-import gitHub from "../../assets/tecnologias/Github_dark.svg";
-import vercel from "../../assets/tecnologias/Vercel_dark.svg";
+import gitHub from "../../assets/tecnologias/Github_light.svg";
+import vercel from "../../assets/tecnologias/Vercel_light.svg";
 
 export const Project = () => {
   return (
     <>
       <div
         id="project"
-        className="w-full min-h-screen bg-gray-200 flex  flex-wrap justify-evenly items-center"
+        className="w-full min-h-screen bg-gray-900 flex  flex-wrap justify-evenly items-center"
       >
         {proyectos.length > 0 &&
           proyectos.map((e, i) => {
@@ -22,8 +22,10 @@ export const Project = () => {
                     <img src={e.img} alt="" className="ShadowEffect" />
                   </div>
                   <div className="card-back border-sky-500 md:border-2 text-center">
-                    <h2 className=" text-lg lg:text-xl">{e.title}</h2>
-                    <p className="text-base lg:text-lg text-sky-500">{e.tec}</p>
+                    <h2 className=" text-lg lg:text-xl font-bold">{e.title}</h2>
+                    <p className="text-base lg:text-lg text-sky-500 font-semibold">
+                      {e.tec}
+                    </p>
                     <p className="text-sm lg:text-base p-2">{e.description}</p>
                     <div className="w-full  flex justify-evenly items-center mb-2">
                       <a href={e.github}>
@@ -33,13 +35,15 @@ export const Project = () => {
                           className="w-7 md:w-8 hover:scale-125 duration-1000 "
                         />
                       </a>
-                      <a href={e.vercel}>
-                        <img
-                          src={vercel}
-                          alt=""
-                          className="w-8 hover:scale-125 duration-1000"
-                        />
-                      </a>
+                      {e.vercel === "" ? null : (
+                        <a href={e.vercel}>
+                          <img
+                            src={vercel}
+                            alt=""
+                            className="w-8 hover:scale-125 duration-1000"
+                          />
+                        </a>
+                      )}
                     </div>
                   </div>
                 </div>

@@ -1,12 +1,13 @@
 import Burger from "../../assets/burger.svg";
 import React, { useState } from "react";
-import imgHome from "../../assets/home.svg";
-import imgAbout from "../../assets/about.svg";
-import imgProject from "../../assets/project.svg";
-import imgLinkedin from "../../assets/tecnologias/linkedin.svg";
-import imgGitHub from "../../assets/tecnologias/Github_dark.svg";
-import imgWhatsapp from "../../assets/tecnologias/whatsapp.svg";
-import imgInstagram from "../../assets/tecnologias/Instagram_dark.svg";
+import { ImHome } from "react-icons/im";
+import { BsRocketTakeoff } from "react-icons/bs";
+import { BsFillPersonVcardFill } from "react-icons/bs";
+import { FaInstagram } from "react-icons/fa6";
+import { FaGithub } from "react-icons/fa6";
+import { IoLogoLinkedin } from "react-icons/io5";
+import { FaWhatsapp } from "react-icons/fa";
+import { FaLocationArrow } from "react-icons/fa6";
 
 export const NavBar: React.FC = () => {
   const [burger, setBurger] = useState(false);
@@ -24,27 +25,24 @@ export const NavBar: React.FC = () => {
         {/* botonera */}
         <div className="hidden w-full h-1/2  md:flex flex-col justify-evenly items-center">
           <a href="#home">
-            <div className="w-full flex mr-8 ">
-              <img src={imgHome} alt="" className="w-7 mr-2" />
-              <button className="md:text-lg lg:text-xl xl:text-2xl font-bold text-white  ">
-                Inicio{" "}
-              </button>
+            <div className="w-full flex items-center justify-center ">
+              <span className="md:text-lg lg:text-xl xl:text-2xl font-semibold text-white hover:text-sky-500 flex items-center">
+                <ImHome className="mr-2" /> Inicio
+              </span>
             </div>
           </a>
           <a href="#about">
-            <div className="w-full flex  ">
-              <img src={imgAbout} alt="" className="w-7 mr-2" />
-              <button className="md:text-lg lg:text-xl xl:text-2xl font-bold text-white  ">
-                Sobre mi
-              </button>
+            <div className="w-full flex items-center justify-center ">
+              <span className="md:text-lg lg:text-xl xl:text-2xl font-semibold text-white hover:text-sky-500 flex items-center">
+                <BsFillPersonVcardFill className="mr-2" /> Sobre mi
+              </span>
             </div>
           </a>
           <a href="#project">
-            <div className="w-full flex  ">
-              <img src={imgProject} alt="" className="w-7 mr-2" />
-              <button className="md:text-lg lg:text-xl xl:text-2xl font-bold text-white  ">
-                Proyectos
-              </button>
+            <div className="w-full flex items-center justify-center ">
+              <span className="md:text-lg lg:text-xl xl:text-2xl font-semibold text-white hover:text-sky-500 flex items-center">
+                <BsRocketTakeoff className="mr-2" /> Proyectos
+              </span>
             </div>
           </a>{" "}
         </div>
@@ -57,35 +55,31 @@ export const NavBar: React.FC = () => {
         <div className="hidden w-full h-1/2  md:flex flex-col justify-evenly items-center">
           {" "}
           <a href="#home">
-            <div className="w-40 flex ml-5  ">
-              <img src={imgLinkedin} alt="" className="w-7 mr-2" />
-              <button className="md:text-md lg:text-xl xl:text-2xl font-bold text-white  ">
-                Linkedin
-              </button>
+            <div className="w-full flex items-center justify-center ">
+              <span className="md:text-lg lg:text-xl xl:text-2xl font-semibold text-white hover:text-sky-500 flex items-center">
+                <IoLogoLinkedin className="mr-2" /> LinkedIn
+              </span>
             </div>
           </a>
           <a href="#home">
-            <div className="w-40 flex ml-5  ">
-              <img src={imgGitHub} alt="" className="w-7 mr-2" />
-              <button className="md:text-md lg:text-xl xl:text-2xl font-bold text-white  ">
-                GitHub{" "}
-              </button>
+            <div className="w-full flex items-center justify-center ">
+              <span className="md:text-lg lg:text-xl xl:text-2xl font-semibold text-white hover:text-sky-500 flex items-center">
+                <FaGithub className="mr-2" /> GitHub
+              </span>
             </div>
           </a>
           <a href="#home">
-            <div className="w-40 flex ml-5  ">
-              <img src={imgWhatsapp} alt="" className="w-7 mr-2" />
-              <button className="md:text-md lg:text-xl xl:text-2xl font-bold text-white  ">
-                Whatsapp{" "}
-              </button>
+            <div className="w-full flex items-center justify-center ">
+              <span className="md:text-lg lg:text-xl xl:text-2xl font-semibold text-white hover:text-sky-500 flex items-center">
+                <FaWhatsapp className="mr-2" /> Whatsapp
+              </span>
             </div>
           </a>
           <a href="#home">
-            <div className="w-40 flex ml-5  ">
-              <img src={imgInstagram} alt="" className="w-7 mr-2" />
-              <button className="md:text-md lg:text-xl xl:text-2xl font-bold text-white  ">
-                Instagram{" "}
-              </button>
+            <div className="w-full flex items-center justify-center ">
+              <span className="md:text-lg lg:text-xl xl:text-2xl font-semibold text-white hover:text-sky-500 flex items-center">
+                <FaInstagram className="mr-2" /> Instagram
+              </span>
             </div>
           </a>
         </div>
@@ -99,49 +93,62 @@ export const NavBar: React.FC = () => {
       </div>{" "}
       {/* container burger */}
       {burger === true ? (
-        <div className=" w-full h-[350px] flex flex-col justify-start   md:hidden fixed z-50 mt-20 bg-gray-800 ">
+        <div className=" w-full h-[370px] flex flex-col justify-center items-center   md:hidden fixed z-50 mt-20 bg-gray-800 ">
           <div className="w-full h-3/4  flex flex-col justify-evenly items-center ">
             <a href="#home">
-              <button className="text-lg font-bold text-gray-300 hover:scale-110 duration-1000 hover:text-gray-800  ">
-                Inicio
-              </button>
+              <span className="text-white hover:text-sky-500 text-xl font-semibold flex items-center">
+                <ImHome className="mr-2" /> Inicio
+              </span>
             </a>
             <a href="#about">
-              <button className="text-lg font-bold text-gray-300  hover:scale-110 duration-1000 hover:text-gray-800  ">
-                Sobre mi
-              </button>
+              <span className="text-white hover:text-sky-500 text-xl font-semibold flex items-center">
+                <BsFillPersonVcardFill className="mr-2" /> Sobre Mi
+              </span>
             </a>
-            <a href="#service">
-              <button className="text-lg font-bold text-gray-300  hover:scale-110 duration-1000 hover:text-gray-800  ">
-                Proyectos
-              </button>
+            <a href="#project">
+              <span className="text-white hover:text-sky-500 text-xl font-semibold flex items-center">
+                <BsRocketTakeoff className="mr-2" /> Proyectos
+              </span>
             </a>
           </div>
-          <div className="w-full min-h-20  flex justify-evenly items-center">
+          <div className="w-3/4 min-h-20  flex justify-evenly items-center bg-gray-700 rounded-2xl">
             <a href="#home">
               <div className="w-full h-10 flex justify-center items-center   ">
-                <img src={imgLinkedin} alt="" className="w-7 mr-2" />
+                <span className="text-white hover:text-sky-500 text-xl flex items-center">
+                  <IoLogoLinkedin className="" />
+                </span>{" "}
               </div>
             </a>
             <a href="#home">
               <div className="w-full h-10 flex justify-center items-center   ">
-                <img src={imgGitHub} alt="" className="w-7 mr-2" />
+                <span className="text-white hover:text-sky-500 text-xl flex items-center">
+                  <FaGithub className="" />
+                </span>{" "}
               </div>
             </a>
             <a href="#home">
               <div className="w-full h-10 flex justify-center items-center  ">
-                <img src={imgWhatsapp} alt="" className="w-7 mr-2" />
+                <span className="text-white hover:text-sky-500 text-xl flex items-center">
+                  <FaWhatsapp className="" />
+                </span>{" "}
               </div>
             </a>
             <a href="#home">
               <div className="w-full h-10 flex justify-center items-center   ">
-                <img src={imgInstagram} alt="" className="w-7 mr-2" />
+                <span className="text-white hover:text-sky-500 text-xl flex items-center">
+                  <FaInstagram className="" />
+                </span>{" "}
               </div>
             </a>
           </div>
-          <button className=" p-2 m-3 bg-gray-900 text-white md:text-md lg:text-lg xl:text-xl  font-bold rounded-xl">
-            Curriculum
-          </button>
+          <div className="w-full h-20 flex justify-center items-center bg-gray-700 mt-10 ">
+            <a href="#home">
+              <span className="text-white hover:text-sky-500 text-xl flex items-center">
+                Curriculum
+                <FaLocationArrow className="" />
+              </span>{" "}
+            </a>
+          </div>
         </div>
       ) : null}
     </>

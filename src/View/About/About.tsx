@@ -16,7 +16,7 @@ export const About: React.FC = () => {
   return (
     <div
       id="about"
-      className="w-full min-h-screen bg-gray-900 flex flex-col justify-center items-center"
+      className="w-full min-h-screen bg-gray-200 flex flex-col justify-center items-center"
     >
       <div className="w-full   flex flex-col justify-center items-center md:mt-5  mt-10">
         <div className="w-full md:w-3/4 h-1/2 flex flex-col justify-center items-center  ">

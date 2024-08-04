@@ -48,7 +48,10 @@ export const Footer = () => {
         </div>
         <hr className="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
         <span className="block text-xl text-gray-500 sm:text-center dark:text-gray-400">
-          <a href="https://flowbite.com/" className="hover:underline">
+          <a
+            href="mailto:leadromortarini2@gmail.com"
+            className="hover:underline"
+          >
             Leadromortarini2@gmail.com
           </a>
         </span>

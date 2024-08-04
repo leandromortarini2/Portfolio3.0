@@ -25,20 +25,20 @@ export const About: React.FC = () => {
             Sobre mí
           </h1>
           <p className="text-gray-200 p-5 text-center md:text-justify md:text-sm lg:text-md xl:text-2xl font-bold">
-            Me formé en el boot camp de Henry como{" "}
+            Me formé en el boot camp de Henry como
             <span className="text-sky-600">
               Full Stack Developer con especialización en Front End.
             </span>{" "}
-            Mi experiencia se centra en tecnologías como{" "}
+            Mi experiencia incluye tecnologías como
             <span className="text-sky-600">
               React, TypeScript, Javascript, Tailwind, Node.js, Express, Next,
               entre otras.
             </span>{" "}
             Mi enfoque se centra en crear aplicaciones web modernas y altamente
-            funcionales, ofreciendo interfaces responsivas y atractivas. Con un
-            firme compromiso, habilidades de trabajo en equipo y una gran
-            determinación. Garantizo resultados que superan las expectativas del
-            cliente.
+            funcionales, ofreciendo interfaces responsivas y atractivas. También
+            tengo experiencia en la creación y consumo de APIs REST. Tengo
+            habilidades de trabajo en equipo y una gran determinación, garantizo
+            resultados que superan las expectativas del cliente.
           </p>
         </div>
         <div className="w-full md:w-3/4 flex flex-col justify-evenly items-center xl:mt-20 mb-10 ">

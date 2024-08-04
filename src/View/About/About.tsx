@@ -22,14 +22,14 @@ export const About: React.FC = () => {
       <div className="w-full   flex flex-col justify-center items-center md:mt-5  mt-10">
         <div className="w-full md:w-3/4 h-1/2 flex flex-col justify-center items-center  ">
           <h1 className="text-gray-50 text-3xl md:text-4xl lg:text-[40px] xl:text-[60px] font-bold mt-14 md:mt-0  lg:mb-5 xl:mb-10">
-            Sobre mí
+            Sobre Mí
           </h1>
           <p className="text-gray-200 p-5 text-center md:text-justify md:text-sm lg:text-md xl:text-2xl font-bold">
-            Me formé en el boot camp de Henry como
+            Me formé en el boot camp de Henry como{" "}
             <span className="text-sky-600">
               Full Stack Developer con especialización en Front End.
             </span>{" "}
-            Mi experiencia incluye tecnologías como
+            Mi experiencia incluye tecnologías como{" "}
             <span className="text-sky-600">
               React, TypeScript, Javascript, Tailwind, Node.js, Express, Next,
               entre otras.

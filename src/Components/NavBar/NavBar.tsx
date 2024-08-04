@@ -49,7 +49,7 @@ export const NavBar: React.FC = () => {
                   positionAbout === true ? "text-sky-500" : "text-white"
                 } hover:text-sky-500 flex items-center`}
               >
-                <BsFillPersonVcardFill className="mr-2" /> Sobre mi
+                <BsFillPersonVcardFill className="mr-2" /> Sobre Mi
               </span>
             </div>
           </a>

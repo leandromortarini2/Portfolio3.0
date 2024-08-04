@@ -116,7 +116,7 @@ export const Home: React.FC = () => {
           <img
             src={imgPortada}
             alt=""
-            className="w-1/2   ShadowEffect imgEffectLow"
+            className="w-1/2   ShadowEffect2 imgEffectLow"
           />
         </div>
         <div className="w-full  flex flex-col justify-evenly items-center  ">

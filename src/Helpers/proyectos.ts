@@ -30,7 +30,7 @@ export const proyectos = [
     title: "E-Commerce",
     tec: "Next Js | Tailwind | Typescript | Context",
     description:
-      "Esta App La Realicé Para El Cuarto Módulo Del Bootcamp Henry, Es Un E-Commerce De Productos Tecnológicos La Cual Permite Registrarse E Iniciarse Sesión Con Autenticación De Token, Seleccionar Un Producto, Ver Sus Detalles, Agregarlo Al Carro Y Gestionarla Orden.",
+      "Esta App La Realicé Para El Cuarto Módulo Del Bootcamp Henry, Es Un E-Commerce De Productos Tecnológicos La Cual Permite Registrarse E Iniciarse Sesión Con Autenticación De Token, Seleccionar Un Producto, Ver Sus Detalles, Agregarlo Al Carro Y Gestionar la Orden.",
     img: "https://i.ibb.co/gv3Cc96/ecommerce.jpg",
     github: "https://github.com/leandromortarini2/e-commerce",
     vercel: "",

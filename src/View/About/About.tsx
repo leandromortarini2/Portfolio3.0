@@ -11,7 +11,6 @@ import tec9 from "../../assets/tecnologias/expressjs_dark.svg";
 import tec10 from "../../assets/tecnologias/postgresql.svg";
 import tec11 from "../../assets/tecnologias/mongodb.svg";
 import tec12 from "../../assets/tecnologias/typeorm.svg";
-import tec13 from "../../assets/tecnologias/Astro_light.svg";
 
 export const About: React.FC = () => {
   return (
@@ -112,11 +111,6 @@ export const About: React.FC = () => {
             />
             <img
               src={tec12}
-              alt=""
-              className="w-8 h-10 md:w-10 md:h-10 lg:w-12 lg:h-12 xl:w-14 xl:h-14 m-2 "
-            />
-            <img
-              src={tec13}
               alt=""
               className="w-8 h-10 md:w-10 md:h-10 lg:w-12 lg:h-12 xl:w-14 xl:h-14 m-2 "
             />

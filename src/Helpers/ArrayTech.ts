@@ -10,10 +10,8 @@ import tec9 from "../assets/tecnologias/expressjs_dark.svg";
 import tec10 from "../assets/tecnologias/postgresql.svg";
 import tec11 from "../assets/tecnologias/mongodb.svg";
 import tec12 from "../assets/tecnologias/typeorm.svg";
-import tec13 from "../assets/tecnologias/materialui (1).svg";
-import tec14 from "../assets/tecnologias/flowbite.svg";
-import tec15 from "../assets/tecnologias/Vercel_dark.svg";
-import tec16 from "../assets/tecnologias/Astro_dark.svg";
+import tec13 from "../assets/tecnologias/flowbite.svg";
+import tec14 from "../assets/tecnologias/Vercel_dark.svg";
 
 export const arrayTech = [
   tec1,
@@ -30,7 +28,6 @@ export const arrayTech = [
   tec12,
   tec13,
   tec14,
-  tec15,
   tec1,
   tec2,
   tec3,
@@ -45,6 +42,4 @@ export const arrayTech = [
   tec12,
   tec13,
   tec14,
-  tec15,
-  tec16,
 ];

@@ -9,6 +9,7 @@ import { FaWhatsapp } from "react-icons/fa";
 import { FaLocationArrow } from "react-icons/fa6";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { BsRocket } from "react-icons/bs";
+import { IoMdBriefcase } from "react-icons/io";
 
 export const BurgerMenu: React.FC = () => {
   const [burger, setBurger] = useState(false);
@@ -48,6 +49,11 @@ export const BurgerMenu: React.FC = () => {
             <a href="#project" onClick={handleBurger}>
               <span className="text-white hover:text-sky-500 text-xl font-semibold flex items-center">
                 <BsRocketTakeoff className="mr-2" /> Proyectos
+              </span>
+            </a>
+            <a href="#experience" onClick={handleBurger}>
+              <span className="text-white hover:text-sky-500 text-xl font-semibold flex items-center">
+                <IoMdBriefcase className="mr-2" /> Experiencia
               </span>
             </a>
           </div>

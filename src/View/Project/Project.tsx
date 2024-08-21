@@ -36,9 +36,12 @@ export const Project = () => {
                         {e.description}
                       </p>
                       <div className="w-full  flex justify-evenly items-center mb-2">
-                        <a href={e.github}>
-                          <FaGithub className="hover:text-sky-500 hover:scale-125 duration-1000 text-3xl" />
-                        </a>
+                        {e.github === "" ? null : (
+                          <a href={e.github}>
+                            <FaGithub className="hover:text-sky-500 hover:scale-125 duration-1000 text-3xl" />
+                          </a>
+                        )}
+
                         {e.vercel === "" ? null : (
                           <a href={e.vercel}>
                             <IoLogoVercel className="hover:text-sky-500 hover:scale-125 duration-1000 text-3xl" />

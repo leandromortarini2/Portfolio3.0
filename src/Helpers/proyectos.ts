@@ -1,5 +1,14 @@
 export const proyectos = [
   {
+    title: "Gestor de Comercio",
+    tec: "React | Redux | Tailwind | Css",
+    description:
+      "Soluciones avanzadas de gestión, optimizando el control de inventario, la actualización masiva de precios, el monitoreo de ventas y la generación de estadísticas. Nuestro sistema está diseñado para mejorar la eficiencia operativa, proporcionar datos cruciales para la toma de decisiones y fomentar el crecimiento del negocio.",
+    img: "https://i.ibb.co/Srqc35z/inflatrack.jpg",
+    github: "",
+    vercel: "https://dev.inflatrack.com.ar/",
+  },
+  {
     title: "Stetic Glam",
     tec: "React | TypeScript | Tailwind | Css",
     description:

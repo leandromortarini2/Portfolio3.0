@@ -5,7 +5,6 @@ import {
   VerticalTimelineElement,
 } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
-import { TbBriefcase2 } from "react-icons/tb";
 import { MdComputer } from "react-icons/md";
 import { GiPoliceBadge } from "react-icons/gi";
 

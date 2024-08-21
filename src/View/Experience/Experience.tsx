@@ -6,8 +6,8 @@ const Experience: React.FC = () => {
       id="experience"
       className="w-full min-h-screen bg-gray-900 flex justify-center items-center"
     >
-      <h1 className="text-white text-6xl font-bold">
-        Experiencia restará listo muy pronto{" "}
+      <h1 className="text-white lg:text-6xl font-bold text-center">
+        Experiencia estará listo muy pronto
       </h1>
     </div>
   );

@@ -1,16 +1,5 @@
 import React from "react";
-import tec1 from "../../assets/tecnologias/react.svg";
-import tec2 from "../../assets/tecnologias/javascript.svg";
-import tec3 from "../../assets/tecnologias/typescript.svg";
-import tec4 from "../../assets/tecnologias/nextjs_icon_dark.svg";
-import tec5 from "../../assets/tecnologias/tailwindcss.svg";
-import tec6 from "../../assets/tecnologias/html5.svg";
-import tec7 from "../../assets/tecnologias/css.svg";
-import tec8 from "../../assets/tecnologias/nodejs.svg";
-import tec9 from "../../assets/tecnologias/expressjs_dark.svg";
-import tec10 from "../../assets/tecnologias/postgresql.svg";
-import tec11 from "../../assets/tecnologias/mongodb.svg";
-import tec12 from "../../assets/tecnologias/typeorm.svg";
+import { arrayTech } from "../../Helpers/ArrayTech";
 
 export const About: React.FC = () => {
   return (
@@ -23,96 +12,38 @@ export const About: React.FC = () => {
           <h1 className="text-gray-50 text-3xl md:text-4xl lg:text-[40px] xl:text-[60px] font-bold mt-14 md:mt-0  lg:mb-5 xl:mb-10">
             Sobre Mí
           </h1>
-          <p className="text-gray-200 p-5 text-center md:text-justify md:text-sm lg:text-md xl:text-2xl font-bold ">
-            Hola, soy Leandro Mortarini
-            <span className="text-sky-600 ml-1">
-              Full Stack Developer con especialización en Front End.
-            </span>{" "}
-            Mi experiencia incluye tecnologías como{" "}
-            <span className="text-sky-600">
-              React, TypeScript, Javascript, Tailwind, Node.js, Express, Next,
-              entre otras.
-            </span>{" "}
-            También tengo experiencia en la{" "}
-            <span className="text-sky-600">
-              creación y consumo de APIs REST{" "}
+          <p className="text-gray-200 p-5 text-center md:text-center md:text-sm lg:text-md xl:text-2xl font-bold ">
+            Hola, soy{" "}
+            <span className="text-sky-600 ">Desarrollador Frontend</span>{" "}
+            enfocado en la construcción de aplicaciones web dinámicas y
+            visualmente atractivas. Me especializo en el uso de tecnologías
+            clave como{" "}
+            <span className="text-sky-600 ">
+              JavaScript, TypeScript y React{" "}
             </span>
-            , así como en el{" "}
-            <span className="text-sky-600">
-              manejo de bases de datos como PostgreSQL o MongoDB
-            </span>
-            . <br />
+            , con experiencia en la implementación de{" "}
+            <span className="text-sky-600 ">Redux </span>
+            para una gestión de estado eficiente y escalable. <br />
             Actualmente, estoy colaborando con la empresa Inflatrack en el
-            desarrollo de un software de gestión de comercio, lo que me ha
-            permitido aplicar y expandir mis habilidades en un entorno
-            empresarial real. Además, realizó desarrollos de aplicaciones web de
-            manera freelance para clientes reales, lo que reafirma mi capacidad
-            para entregar resultados de alta calidad.
+            desarrollo de un{" "}
+            <span className="text-sky-600 ">
+              software de gestión de comercio{" "}
+            </span>
+            , lo que me ha permitido aplicar y expandir mis habilidades en un
+            entorno empresarial real. Además, realizó desarrollos de
+            aplicaciones web de manera freelance para clientes reales, lo que
+            reafirma mi capacidad para entregar resultados de alta calidad.
           </p>
         </div>
-        <div className="w-full md:w-3/4 flex flex-col justify-evenly items-center xl:mt-20 mb-10 ">
-          <div className="w-full  flex flex-wrap justify-evenly">
-            <img
-              src={tec1}
-              alt=""
-              className="w-8 h-10 md:w-10 md:h-10 lg:w-12 lg:h-12 xl:w-14 xl:h-14 m-2 "
-            />
-            <img
-              src={tec2}
-              alt=""
-              className="w-8 h-10 md:w-10 md:h-10 lg:w-12 lg:h-12 xl:w-14 xl:h-14 m-2 "
-            />
-            <img
-              src={tec3}
-              alt=""
-              className="w-8 h-10 md:w-10 md:h-10 lg:w-12 lg:h-12 xl:w-14 xl:h-14 m-2 "
-            />
-            <img
-              src={tec4}
-              alt=""
-              className="w-8 h-10 md:w-10 md:h-10 lg:w-12 lg:h-12 xl:w-14 xl:h-14 m-2 "
-            />
-            <img
-              src={tec5}
-              alt=""
-              className="w-8 h-10 md:w-10 md:h-10 lg:w-12 lg:h-12 xl:w-14 xl:h-14 m-2 "
-            />
-            <img
-              src={tec6}
-              alt=""
-              className="w-8 h-10 md:w-10 md:h-10 lg:w-12 lg:h-12 xl:w-14 xl:h-14 m-2 "
-            />
-            <img
-              src={tec7}
-              alt=""
-              className="w-8 h-10 md:w-10 md:h-10 lg:w-12 lg:h-12 xl:w-14 xl:h-14 m-2 "
-            />
-
-            <img
-              src={tec8}
-              alt=""
-              className="w-8 h-10 md:w-10 md:h-10 lg:w-12 lg:h-12 xl:w-14 xl:h-14 m-2 "
-            />
-            <img
-              src={tec9}
-              alt=""
-              className="w-8 h-10 md:w-10 md:h-10 lg:w-12 lg:h-12 xl:w-14 xl:h-14 m-2 "
-            />
-            <img
-              src={tec10}
-              alt=""
-              className="w-8 h-10 md:w-10 md:h-10 lg:w-12 lg:h-12 xl:w-14 xl:h-14 m-2 "
-            />
-            <img
-              src={tec11}
-              alt=""
-              className="w-8 h-10 md:w-10 md:h-10 lg:w-12 lg:h-12 xl:w-14 xl:h-14 m-2 "
-            />
-            <img
-              src={tec12}
-              alt=""
-              className="w-8 h-10 md:w-10 md:h-10 lg:w-12 lg:h-12 xl:w-14 xl:h-14 m-2 "
-            />
+        <div className=" w-full h-250px flex justify-center items-center overflow-hidden">
+          <div className=" w-3/4 h-250px flex items-center overflow-hidden">
+            <div className="slideTrack">
+              {arrayTech.map((tec, index) => (
+                <div key={index} className="slide">
+                  <img src={tec} alt={`Tecnología ${index + 1}`} />
+                </div>
+              ))}
+            </div>
           </div>
         </div>
       </div>

@@ -1,45 +1,36 @@
-import tec1 from "../assets/tecnologias/react.svg";
-import tec2 from "../assets/tecnologias/javascript.svg";
-import tec3 from "../assets/tecnologias/typescript.svg";
-import tec4 from "../assets/tecnologias/nextjs_icon_dark.svg";
-import tec5 from "../assets/tecnologias/tailwindcss.svg";
-import tec6 from "../assets/tecnologias/html5.svg";
-import tec7 from "../assets/tecnologias/css.svg";
-import tec8 from "../assets/tecnologias/nodejs.svg";
-import tec9 from "../assets/tecnologias/expressjs_dark.svg";
-import tec10 from "../assets/tecnologias/postgresql.svg";
-import tec11 from "../assets/tecnologias/mongodb.svg";
-import tec12 from "../assets/tecnologias/typeorm.svg";
-import tec13 from "../assets/tecnologias/flowbite.svg";
-import tec14 from "../assets/tecnologias/Vercel_dark.svg";
+import react from "../assets/tecnologias/react.svg";
+import javascript from "../assets/tecnologias/javascript.svg";
+import typescript from "../assets/tecnologias/typescript.svg";
+import Next from "../assets/tecnologias/nextjs_icon_dark.svg";
+import Tailwind from "../assets/tecnologias/tailwindcss.svg";
+import html5 from "../assets/tecnologias/html5.svg";
+import css from "../assets/tecnologias/css.svg";
+import flowbite from "../assets/tecnologias/flowbite.svg";
+import MaterialUI from "../assets/tecnologias/materialui (1).svg";
+import Redux from "../assets/tecnologias/redux.svg";
+import Figma from "../assets/tecnologias/figma.svg";
 
 export const arrayTech = [
-  tec1,
-  tec2,
-  tec3,
-  tec4,
-  tec5,
-  tec6,
-  tec7,
-  tec8,
-  tec9,
-  tec10,
-  tec11,
-  tec12,
-  tec13,
-  tec14,
-  tec1,
-  tec2,
-  tec3,
-  tec4,
-  tec5,
-  tec6,
-  tec7,
-  tec8,
-  tec9,
-  tec10,
-  tec11,
-  tec12,
-  tec13,
-  tec14,
+  javascript,
+  typescript,
+  react,
+  Next,
+  Redux,
+  Tailwind,
+  MaterialUI,
+  flowbite,
+  Figma,
+  html5,
+  css,
+  javascript,
+  typescript,
+  react,
+  Next,
+  Redux,
+  Tailwind,
+  MaterialUI,
+  flowbite,
+  Figma,
+  html5,
+  css,
 ];

@@ -25,7 +25,7 @@ export const HomeMobie = () => {
           <h3 className="text-gray-300 text-lg   font-semibold">soy</h3>
           <h1 className="text-sky-700 text-3xl font-bold">Leandro Mortarini</h1>
           <h2 className="text-sky-500 text-lg  font-semibold">
-            Desarrollador Full Stack
+            Desarrollador Frontend
           </h2>
           <h3 className="text-gray-300 md:text-xl lg:text-2xl  xl:text-3xl font-semibold">
             leandromortarini2@gmail.com

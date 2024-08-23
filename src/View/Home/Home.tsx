@@ -23,7 +23,7 @@ export const Home: React.FC = () => {
               Leandro Mortarini
             </h1>
             <h2 className="text-sky-500 md:text-2xl lg:text-3xl xl:text-4xl font-semibold">
-              Desarrollador Full Stack
+              Desarrollador Frontend
             </h2>
             <h3 className="text-gray-200 md:text-xl lg:text-2xl  xl:text-3xl font-semibold">
               leandromortarini2@gmail.com

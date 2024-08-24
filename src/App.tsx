@@ -1,10 +1,10 @@
 import "./App.css";
 import { NavBar } from "./Components/NavBar/NavBar";
-import { About } from "./View/About/About";
 import { Home } from "./View/Home/Home";
 import { Project } from "./View/Project/Project";
 import { Footer } from "./Components/Footer/Footer";
 import Experience from "./View/Experience/Experience";
+import { About } from "./View/About/About";
 
 function App() {
   return (
@@ -16,8 +16,8 @@ function App() {
         <div className="w-full md:w-4/5  ">
           <Home />
           <About />
-          <Project />
           <Experience />
+          <Project />
           <Footer />
         </div>
       </div>

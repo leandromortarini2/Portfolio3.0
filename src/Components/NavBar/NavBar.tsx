@@ -43,7 +43,7 @@ export const NavBar: React.FC = () => {
 
   return (
     <>
-      <div className="w-full flex justify-end md:block md:w-1/5 md:h-screen bg-gray-950 fixed top-0 left-0 z-50">
+      <div className="w-full flex justify-end md:block md:w-1/5 md:h-screen bg-gray-900 fixed top-0 left-0 z-50">
         {/* Botonera */}
         <div className="hidden w-full h-1/2 md:flex flex-col justify-evenly items-center">
           <a href="#home" onClick={handlePositionHome}>
@@ -68,17 +68,6 @@ export const NavBar: React.FC = () => {
               </span>
             </div>
           </a>
-          <a href="#project" onClick={handlePositionProject}>
-            <div className="w-full flex items-center justify-center">
-              <span
-                className={`md:text-lg lg:text-xl xl:text-2xl font-semibold ${
-                  positionProject ? "text-sky-500" : "text-white"
-                } hover:text-sky-500 flex items-center`}
-              >
-                <BsRocketTakeoff className="mr-2" /> Proyectos
-              </span>
-            </div>
-          </a>
           <a href="#experience" onClick={handlePositionExperience}>
             {" "}
             {/* Ruta actualizada */}
@@ -89,6 +78,17 @@ export const NavBar: React.FC = () => {
                 } hover:text-sky-500 flex items-center`}
               >
                 <IoMdBriefcase className="mr-2" /> Experiencia
+              </span>
+            </div>
+          </a>
+          <a href="#project" onClick={handlePositionProject}>
+            <div className="w-full flex items-center justify-center">
+              <span
+                className={`md:text-lg lg:text-xl xl:text-2xl font-semibold ${
+                  positionProject ? "text-sky-500" : "text-white"
+                } hover:text-sky-500 flex items-center`}
+              >
+                <BsRocketTakeoff className="mr-2" /> Proyectos
               </span>
             </div>
           </a>

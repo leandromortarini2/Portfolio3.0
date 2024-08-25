@@ -10,7 +10,6 @@ import { FaLocationArrow } from "react-icons/fa6";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { BsRocket } from "react-icons/bs";
 import { IoMdBriefcase } from "react-icons/io";
-import { Slide, Roll, Zoom, Fade, Bounce, Flip } from "react-reveal";
 
 export const BurgerMenu: React.FC = () => {
   const [burger, setBurger] = useState(false);
@@ -23,12 +22,10 @@ export const BurgerMenu: React.FC = () => {
   return (
     <>
       <div className="w-1/2 md:hidden  flex justify-center items-center">
-        <Bounce button duration={2000}>
-          <span className="text-gray-300 font-bold  tracking-wider text-xl ballMovile flex justify-center items-center ml-5 ">
-            <BsRocket />
-            Developer
-          </span>
-        </Bounce>
+        <span className="text-gray-300 font-bold  tracking-wider text-xl ballMovile flex justify-center items-center ml-5 ">
+          <BsRocket />
+          Developer
+        </span>
       </div>
       {/* hamburguesa */}
       <div className="w-1/2 h-20 flex justify-end items-center z-50 md:hidden  ">

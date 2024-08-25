@@ -1,4 +1,3 @@
-import React from "react";
 import { motion } from "framer-motion";
 import imgPortada from "../../assets/perfil1.png";
 import { arrayTech } from "../../Helpers/ArrayTech";

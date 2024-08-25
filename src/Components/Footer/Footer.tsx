@@ -11,7 +11,7 @@ export const Footer = () => {
           >
             <img src={rocket} className="h-8" alt="Flowbite Logo" />
             <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">
-              Developer Full Stack
+              Desarrollador Frontend
             </span>
           </a>
           <ul className="flex flex-wrap items-center mb-6 text-sm font-medium text-gray-500 sm:mb-0 dark:text-gray-400">

@@ -37,7 +37,7 @@ export const Home: React.FC = () => {
             </Slide>
             <Slide left duration={2000} delay={2000}>
               <h3 className="text-gray-200 md:text-xl lg:text-2xl  xl:text-3xl font-semibold">
-                leandromortarini2@gmail.com
+                Leandromortarini2@gmail.com
               </h3>
             </Slide>
           </div>{" "}

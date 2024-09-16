@@ -1,5 +1,14 @@
 export const proyectos = [
   {
+    title: "Aplicacion en - Beta",
+    tec: "React | Typescript | Tailwind | Material UI",
+    description:
+      "Aplicación de pedidos por WathsApp realizada para la heladeria ICE CREAM. Donde podrás realizar pedidos personalizando los sabores de tus helados favoritos, visualizar el precio total, los productos y sus detalles en el carrito. También podrás colocar tu dirección y confirmar tu pedido",
+    img: "https://i.ibb.co/HgcV0s6/icec.jpg",
+    github: "",
+    vercel: "https://ice-cream-seven.vercel.app/",
+  },
+  {
     title: "Gestor de Comercio",
     tec: "React | Redux | Tailwind | Css",
     description:

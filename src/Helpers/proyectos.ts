@@ -9,13 +9,13 @@ export const proyectos = [
     vercel: "https://ice-cream-seven.vercel.app/",
   },
   {
-    title: "Gestor de Comercio",
-    tec: "React | Redux | Tailwind | Css",
+    title: "MarvelWorld",
+    tec: "React | Tailwind | Javascript | CSS",
     description:
-      "Soluciones avanzadas de gestión, optimizando el control de inventario, la actualización masiva de precios, el monitoreo de ventas y la generación de estadísticas. Nuestro sistema está diseñado para mejorar la eficiencia operativa, proporcionar datos cruciales para la toma de decisiones y fomentar el crecimiento del negocio.",
-    img: "https://i.ibb.co/Srqc35z/inflatrack.jpg",
-    github: "",
-    vercel: "https://dev.inflatrack.com.ar/",
+      "MarvelWorld es una aplicación web diseñada para los entusiastas del universo Marvel. Su principal función es consumir APIs REST para ofrecer información actualizada y detallada sobre el extenso catálogo de Marvel.",
+    img: "https://i.ibb.co/84XLJKj/marvel.jpg",
+    github: "https://github.com/leandromortarini2/MarvelWorld",
+    vercel: "https://marvel-world-jet.vercel.app/",
   },
   {
     title: "Stetic Glam",
@@ -25,15 +25,6 @@ export const proyectos = [
     img: "https://i.ibb.co/YtfcwCB/stetic-Glam.jpg",
     github: "https://github.com/leandromortarini2/steticGlam",
     vercel: "https://stetic-glam.vercel.app/",
-  },
-  {
-    title: "MarvelWorld",
-    tec: "React | Tailwind | Javascript | CSS",
-    description:
-      "MarvelWorld es una aplicación web diseñada para los entusiastas del universo Marvel. Su principal función es consumir APIs REST para ofrecer información actualizada y detallada sobre el extenso catálogo de Marvel.",
-    img: "https://i.ibb.co/84XLJKj/marvel.jpg",
-    github: "https://github.com/leandromortarini2/MarvelWorld",
-    vercel: "https://marvel-world-jet.vercel.app/",
   },
   {
     title: "Rin|Door",

@@ -1,6 +1,6 @@
 export const proyectos = [
   {
-    title: "Aplicacion en - Beta",
+    title: "Plataforma de pedidos por WathsApp",
     tec: "React | Typescript | Tailwind | Material UI",
     description:
       "Aplicación de pedidos por WathsApp realizada para la heladeria ICE CREAM. Donde podrás realizar pedidos personalizando los sabores de tus helados favoritos, visualizar el precio total, los productos y sus detalles en el carrito. También podrás colocar tu dirección y confirmar tu pedido",
